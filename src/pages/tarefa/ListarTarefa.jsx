@@ -36,12 +36,14 @@ function createData(
 
 //Definição do array contendo os dados iniciais da listagem de tarefas
 const initialRows = [
-  createData(1, 'Tarefa 1', 'Descrição da Tarefa 1', '2022-01-01', '2022-01-02', 'Concluída', 'Recurso 1'),
-  createData(2, 'Tarefa 2', 'Descrição da Tarefa 2', '2022-01-03', '2022-01-04', 'Em Andamento', 'Recurso 2'),
-  createData(3, 'Tarefa 3', 'Descrição da Tarefa 3', '2022-01-04', '2022-01-05', 'Em Andamento', 'Recurso 3'),
-  createData(4, 'Tarefa 4', 'Descrição da Tarefa 4', '2022-01-05', '2022-01-06', 'Em Andamento', 'Recurso 4'),
-  createData(5, 'Tarefa 5', 'Descrição da Tarefa 5', '2022-01-06', '2022-01-07', 'Em Andamento', 'Recurso 5'),
-  createData(6, 'Tarefa 6', 'Descrição da Tarefa 6', '2022-01-07', '2022-01-08', 'Aguardando', 'Recurso 6'),
+  createData(1, 'Tarefa 1', 'Criar Um App Banho e Tosa', '2023-08-01', '2023-08-02', 'Concluída', 'Recurso 1'),
+  createData(2, 'Tarefa 2', 'Incluir chat de atendimento no App', '2023-08-03', '2023-08-04', 'Concluida', 'Recurso 2'),
+  createData(3, 'Tarefa 3', 'Incluir Alertas quando os Pets estiverem prontos para ir para casa', '2023-08-04', '2023-08-05', 'Concluida', 'Recurso 3'),
+  createData(4, 'Tarefa 4', 'Incluir Avaliação de serviço prestado ao cliente', '2023-09-05', '2023-09-06', 'Em Andamento', 'Recurso 4'),
+  createData(5, 'Tarefa 5', 'Incluir opção Taxi S/N Dog/Cat', '2023-09-06', '2023-09-07', 'Em Andamento', 'Recurso 5'),
+  createData(6, 'Tarefa 6', 'Incluir agenda eletronica agendamento via App', '2023-10-07', '2023-10-08', 'Aguardando', 'Recurso 6'),
+  createData(6, 'Tarefa 6', 'Homologação da Versão teste e posteriormente versão final', '2023-11-07', '2023-11-08', 'Aguardando', 'Recurso 6'),
+  createData(6, 'Tarefa 6', 'Liberação de versão oficial', '2023-11-24', '2023-11-24', 'Aguardando', 'Recurso 6'),
 ];
 
 //Componente ListarTarefa

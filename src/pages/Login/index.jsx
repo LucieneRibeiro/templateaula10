@@ -14,7 +14,7 @@ const Login = ({ onLogin }) => {
 
   // Função chamada quando o botão de login é clicado
   const handleLogin = () => {
-    if (login === 'Gilmario' && password === '123') {
+    if (login === 'L.ribeiro' && password === '123') {
       onLogin();  // Chama a função onLogin se as credenciais estiverem corretas
     } else {
       const contaErros = maxLoginAttempts - (loginAttempts + 1);
@@ -94,7 +94,7 @@ const Login = ({ onLogin }) => {
       >
         Login
       </Button>
-      <h4 style={{ color: '#808B96' }}>Dev: by Gilmario Santos</h4>
+      <h4 style={{ color: '#808B96' }}>Dev: by Luciene Ribeiro</h4>
 
       <Snackbar
         open={showAlert}
